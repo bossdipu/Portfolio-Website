@@ -1,0 +1,32 @@
+/********* Theme Fonts ******/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+$primary-font-family: 'Nanum Gothic', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Zen+Loop&display=swap');
+$font-family: 'Zen Loop', cursive;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+
+/********* Theme Colors Variables *******/
+$white: #ffffff !default;
+$primary: #F86939 !default;
+$secondary: #ff8c00 !default;
+$light: #f6fafd !default;
+$dark: #353535d1 !default;
+
+/********* Theme Colors Map ******/
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light" : $light,
+  "dark" : $dark
+);
+
+/********* Media Quires Break Points ******/
+$breakpoints: (
+  'small':  767px,
+  'medium': 992px,
+  'large':  1200px
+) !default;

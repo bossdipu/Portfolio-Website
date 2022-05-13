@@ -1,0 +1,28 @@
+@import "/src/styles.scss";
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+
+    a {
+        padding: 1.5rem;
+        text-transform: uppercase;
+        color: $primary;
+        font-family: $primary-font-family ;
+        font-weight: $font-weight-bold;
+        text-decoration: none;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

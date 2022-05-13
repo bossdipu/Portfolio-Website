@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./scss/variables.scss";
+@import "./scss/mixin.scss";
+
+.header-wrap{
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: $primary-font-family;
+    font-weight: $font-weight-bold;
+}
+
+span{
+    color: $primary;
+}
+
+.footer{
+    color: $secondary;
+    text-align: center;
+}
